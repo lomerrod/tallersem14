@@ -2,14 +2,14 @@ main {
     min-height: calc(100vh - 160px);
   }
   .card {
-    width: 430px;
-    height: 350px;
+    width: 350px;
+    height: 300px;
     margin: auto; /* centrado */
 }
 
 .card img {
     height: auto; /* proporcionn */
-    max-height: 200px; /* altura */
+    max-height: 150px; /* altura */
     object-fit: cover; /* ajuste */
 }
 .card-body {
