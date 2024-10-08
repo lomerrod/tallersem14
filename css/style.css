@@ -1,0 +1,21 @@
+main {
+    min-height: calc(100vh - 160px);
+  }
+  .card {
+    width: 430px;
+    height: 350px;
+    margin: auto; /* centrado */
+}
+
+.card img {
+    height: auto; /* proporcionn */
+    max-height: 200px; /* altura */
+    object-fit: cover; /* ajuste */
+}
+.card-body {
+  overflow-y: auto; /* scroll */
+}
+
+.card-footer {
+  height: 40px;
+}
